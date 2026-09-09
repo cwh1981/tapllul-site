@@ -238,6 +238,17 @@
   .contact-list a:hover{text-decoration:underline}
 
   footer{border-top:1px solid var(--line); padding:34px 0 46px; color:var(--fg-faint); font-size:13.5px}
+  .biz{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:10px 28px; margin:0 0 26px; padding-bottom:24px;
+    border-bottom:1px solid var(--line);
+  }
+  .biz > div{display:flex; gap:10px; align-items:baseline}
+  .biz .wide{grid-column:1 / -1}
+  .biz dt{flex:none; min-width:88px; color:var(--fg-faint); font-size:12.5px; font-weight:650}
+  .biz dd{margin:0; color:var(--fg-muted); font-size:13px; line-height:1.6}
+  .biz a{color:var(--fg-muted); text-decoration:none}
+  .biz a:hover{color:var(--fg); text-decoration:underline}
   .foot{display:flex; flex-wrap:wrap; gap:14px; justify-content:space-between; align-items:center}
   .foot nav{display:flex; gap:18px}
   .foot a{text-decoration:none; color:var(--fg-muted)}
@@ -608,12 +619,40 @@
 </main>
 
 <footer>
-  <div class="wrap foot">
-    <span>© <span id="year">2026</span> tapllul. <span class="ko">매쓰마스터는 tapllul의 서비스입니다.</span><span class="en">MathMaster is a tapllul product.</span></span>
-    <nav>
-      <a href="privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy</span></a>
-      <a href="mailto:imagineer1981@gmail.com"><span class="ko">문의</span><span class="en">Contact</span></a>
-    </nav>
+  <div class="wrap">
+    <!-- 사업자정보 (전자상거래법 표기사항) -->
+    <dl class="biz">
+      <div>
+        <dt><span class="ko">상호</span><span class="en">Company</span></dt>
+        <dd><span class="ko">주식회사 탑룰</span><span class="en">주식회사 탑룰 (Taplul Inc.)</span></dd>
+      </div>
+      <div>
+        <dt><span class="ko">대표자</span><span class="en">CEO</span></dt>
+        <dd>하창완</dd>
+      </div>
+      <div>
+        <dt><span class="ko">사업자등록번호</span><span class="en">Business reg. no.</span></dt>
+        <dd>645-87-04358</dd>
+      </div>
+      <div class="wide">
+        <dt><span class="ko">사업장 소재지</span><span class="en">Address</span></dt>
+        <dd><span class="ko">인천광역시 서구 정서진로 132, 684동 2401호 (청라동, 청라국제금융단지한양수자인레이크블루)</span><span class="en">684-2401, 132 Jeongseojin-ro, Seo-gu, Incheon, Republic of Korea</span></dd>
+      </div>
+      <div>
+        <dt><span class="ko">이메일</span><span class="en">Email</span></dt>
+        <dd><a href="mailto:imagineer1981@gmail.com">imagineer1981@gmail.com</a></dd>
+      </div>
+    </dl>
+
+    <div class="foot">
+      <span>© <span id="year">2026</span> 주식회사 탑룰.
+        <span class="ko">매쓰마스터는 주식회사 탑룰의 서비스입니다.</span>
+        <span class="en">MathMaster is a service of 주식회사 탑룰.</span></span>
+      <nav>
+        <a href="privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy</span></a>
+        <a href="mailto:imagineer1981@gmail.com"><span class="ko">문의</span><span class="en">Contact</span></a>
+      </nav>
+    </div>
   </div>
 </footer>
 
