@@ -28,6 +28,7 @@
   [data-lang] { display: none; }
   [data-lang].show { display: block; }
   ul { padding-left: 1.2em; }
+  a { color: #3b82f6; }
 </style>
 </head>
 <body>
@@ -45,7 +46,7 @@
 <!-- ko -->
 <div data-lang="ko" class="show">
   <h1>개인정보처리방침</h1>
-  <p class="muted">시행일자: 2026-08-15 · 최종 개정: 2026-08-15</p>
+  <p class="muted">시행일자: 2026-08-15 · 최종 개정: 2026-10-08</p>
   <p>주식회사 탑룰 (이하 “회사”)은(는) 「개인정보 보호법」 등 관련 법령을 준수하며, 다음과 같이 개인정보처리방침을 수립·공개합니다. 본 방침은 모바일 애플리케이션 “매쓰마스터”(이하 “서비스”)에 적용됩니다.</p>
   <h2>1. 수집하는 개인정보 항목 및 방법</h2>
   <table>
@@ -68,23 +69,40 @@
     <tr><td>Alibaba Cloud (Singapore) Pte. Ltd. (Qwen)</td><td>싱가포르</td><td>문제·풀이 텍스트(무료 등급 해석 시)</td><td>AI 채점·해석</td><td>목적 달성 시까지(처리 후 지체 없이 파기)</td></tr>
   </table>
   <p>이전 방법: 서비스 이용 시 정보통신망을 통해 암호화 전송. 동의하지 않을 권리가 있으나, 미동의 시 AI 채점을 이용할 수 없습니다.</p>
-  <h2>4. 보유 및 파기</h2>
+  <h2>4. 광고 및 광고 식별자</h2>
+  <p>서비스는 광고 기반 무료 이용을 제공하기 위해 Google LLC의 <b>Google AdMob</b> 광고 SDK를 사용합니다. 광고가 노출되는 과정에서 다음 정보가 수집·이용될 수 있습니다.</p>
+  <ul>
+    <li><b>광고 식별자</b> — iOS의 광고주 식별자(IDFA), Android의 광고 ID</li>
+    <li>기기 및 네트워크 정보 — 기기 모델, 운영체제 버전, 언어·국가 설정, IP 주소</li>
+    <li>광고 노출·클릭 기록, IP 주소에 기반한 대략적 위치(국가 수준)</li>
+  </ul>
+  <p><b>맞춤형 광고</b> — 맞춤형(개인화) 광고의 제공 여부는 이용자의 기기 설정 및 동의 여부에 따라 결정됩니다. iOS에서는 이용자가 앱 추적을 허용하지 않으면 광고 식별자에 접근할 수 없으며, 이 경우 맞춤형이 아닌 일반 광고가 제공됩니다.</p>
+  <p><b>광고 거부 및 식별자 초기화 방법</b></p>
+  <ul>
+    <li>iOS — <b>설정 › 개인정보 보호 및 보안 › 추적</b>에서 앱의 추적 요청 허용을 끌 수 있습니다.</li>
+    <li>Android — <b>설정 › 개인정보 보호 › 광고</b>에서 광고 ID를 재설정하거나 삭제할 수 있습니다.</li>
+    <li>Google 계정 기준 광고 설정은 <a href="https://myadcenter.google.com" target="_blank" rel="noopener">myadcenter.google.com</a>에서 변경할 수 있습니다.</li>
+    <li>앱 내에서 크레딧을 구매하면 광고 없이 서비스를 이용할 수 있습니다.</li>
+  </ul>
+  <p><b>아동 이용자</b> — 만 14세 미만 아동은 법정대리인의 동의를 받은 경우에만 서비스를 이용할 수 있습니다. 회사는 아동 이용자에 대하여 관련 법령 및 <a href="https://support.google.com/admob/answer/6223431" target="_blank" rel="noopener">Google의 아동 대상 광고 정책</a>을 준수합니다.</p>
+  <p class="muted">Google이 광고 목적으로 데이터를 처리하는 방식은 <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google 파트너 사이트 데이터 이용 안내</a>를 참고하십시오.</p>
+  <h2>5. 보유 및 파기</h2>
   <p>목적 달성 시 지체 없이 파기합니다. 채점용 이미지·텍스트는 처리 후 지체 없이 파기하며, 운영 로그는 관계 법령 기간 후 파기합니다. 앱 내 <b>‘계정 삭제’</b> 실행 시 학습 활동·백업·연동 정보, 계정, 크레딧이 모두 영구 삭제됩니다.</p>
-  <h2>5. 이용자 및 법정대리인의 권리</h2>
+  <h2>6. 이용자 및 법정대리인의 권리</h2>
   <ul><li>열람·정정·삭제·처리정지 요구 가능</li><li>앱 내 <b>설정 › 계정 삭제</b>로 직접 삭제 가능</li><li>동의 철회: 이용 중단 또는 계정 삭제</li><li>만 14세 미만 아동의 법정대리인이 권리 행사 가능</li></ul>
-  <h2>6. 안전성 확보 조치</h2>
+  <h2>7. 안전성 확보 조치</h2>
   <p>전송 암호화(TLS), 접근 권한 통제, 서버 보안 규칙, 앱 무결성 검증(App Check) 적용.</p>
-  <h2>7. 개인정보 보호책임자 및 문의처</h2>
+  <h2>8. 개인정보 보호책임자 및 문의처</h2>
   <p>보호책임자: 주식회사 탑룰 · 연락처: support@tapllul.com</p>
   <p class="muted">개인정보 침해 상담: 개인정보침해신고센터(privacy.kisa.or.kr / 118)</p>
-  <h2>8. 방침의 변경</h2>
+  <h2>9. 방침의 변경</h2>
   <p>법령·서비스 변경에 따라 개정될 수 있으며, 개정 시 앱 또는 본 페이지로 공지합니다.</p>
 </div>
 
 <!-- en -->
 <div data-lang="en">
   <h1>Privacy Policy</h1>
-  <p class="muted">Effective: 2026-08-15 · Last updated: 2026-08-15</p>
+  <p class="muted">Effective: 2026-08-15 · Last updated: 2026-10-08</p>
   <p>주식회사 탑룰 (“we”) complies with applicable data-protection laws and publishes this Privacy Policy. It applies to the mobile application “MathMaster” (the “Service”).</p>
   <h2>1. Information We Collect</h2>
   <table>
@@ -107,22 +125,39 @@
     <tr><td>Alibaba Cloud (Singapore) Pte. Ltd. (Qwen)</td><td>Singapore</td><td>Problem/solution text (free-tier analysis)</td><td>AI grading/analysis</td><td>Until purpose fulfilled (destroyed without delay)</td></tr>
   </table>
   <p>Transfers occur at time of use over encrypted connections. You may decline, but AI grading will then be unavailable.</p>
-  <h2>4. Retention & Deletion</h2>
+  <h2>4. Advertising &amp; Ad Identifiers</h2>
+  <p>To offer ad-supported free use, the Service uses the <b>Google AdMob</b> advertising SDK provided by Google LLC. The following may be collected and used when ads are served:</p>
+  <ul>
+    <li><b>Advertising identifiers</b> — the Identifier for Advertisers (IDFA) on iOS and the Advertising ID on Android</li>
+    <li>Device and network information — device model, OS version, language and region settings, IP address</li>
+    <li>Ad impression and click records, and approximate (country-level) location derived from the IP address</li>
+  </ul>
+  <p><b>Personalized advertising</b> — whether personalized ads are served depends on your device settings and your consent. On iOS the advertising identifier is unavailable unless you allow app tracking; non-personalized ads are served instead.</p>
+  <p><b>Opting out and resetting identifiers</b></p>
+  <ul>
+    <li>iOS — turn off app tracking requests under <b>Settings › Privacy &amp; Security › Tracking</b>.</li>
+    <li>Android — reset or delete your Advertising ID under <b>Settings › Privacy › Ads</b>.</li>
+    <li>Account-level ad settings can be changed at <a href="https://myadcenter.google.com" target="_blank" rel="noopener">myadcenter.google.com</a>.</li>
+    <li>Purchasing credits in the app removes ads.</li>
+  </ul>
+  <p><b>Child users</b> — children under 14 may use the Service only with a legal guardian's consent. In respect of child users we comply with applicable law and <a href="https://support.google.com/admob/answer/6223431" target="_blank" rel="noopener">Google's policies on ads directed to children</a>.</p>
+  <p class="muted">For how Google processes data for advertising, see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google's guide to data use on partner sites and apps</a>.</p>
+  <h2>5. Retention & Deletion</h2>
   <p>We delete data without delay once its purpose is fulfilled. Grading images/text are destroyed without delay after processing; operational logs are kept for the legally required period. <b>Delete Account</b> in the app permanently deletes your learning activity, backups, linking data, account, and credits.</p>
-  <h2>5. Your Rights</h2>
+  <h2>6. Your Rights</h2>
   <ul><li>Request access, correction, deletion, or suspension of processing</li><li>Delete directly via <b>Settings › Delete Account</b></li><li>Withdraw consent by stopping use or deleting your account</li><li>Guardians of children under 14 may exercise these rights</li></ul>
-  <h2>6. Security</h2>
+  <h2>7. Security</h2>
   <p>TLS encryption in transit, access controls, server-side security rules, and app-integrity verification (App Check).</p>
-  <h2>7. Contact</h2>
+  <h2>8. Contact</h2>
   <p>Data Protection Officer: 주식회사 탑룰 · Contact: support@tapllul.com</p>
-  <h2>8. Changes</h2>
+  <h2>9. Changes</h2>
   <p>We may update this Policy as laws or the Service change; updates are announced in the app or here.</p>
 </div>
 
 <!-- ja -->
 <div data-lang="ja">
   <h1>プライバシーポリシー</h1>
-  <p class="muted">施行日: 2026-08-15 · 最終改定: 2026-08-15</p>
+  <p class="muted">施行日: 2026-08-15 · 最終改定: 2026-10-08</p>
   <p>주식회사 탑룰（以下「当社」）は、関連法令を遵守し、本プライバシーポリシーを策定・公開します。本方針はモバイルアプリ「MathMaster」（以下「本サービス」）に適用されます。</p>
   <h2>1. 収集する情報と方法</h2>
   <table>
@@ -145,22 +180,39 @@
     <tr><td>Alibaba Cloud (Singapore) Pte. Ltd.（Qwen）</td><td>シンガポール</td><td>問題・解答のテキスト（無料等級の解析時）</td><td>AI採点・解析</td><td>目的達成まで（処理後遅滞なく破棄）</td></tr>
   </table>
   <p>移転方法：利用時に通信網を通じて暗号化して送信。同意しない権利がありますが、その場合はAI採点を利用できません。</p>
-  <h2>4. 保有および破棄</h2>
+  <h2>4. 広告および広告識別子</h2>
+  <p>本サービスは、広告による無料利用を提供するため、Google LLC の <b>Google AdMob</b> 広告 SDK を使用します。広告配信の過程で次の情報が収集・利用される場合があります。</p>
+  <ul>
+    <li><b>広告識別子</b> — iOS の広告主識別子（IDFA）、Android の広告 ID</li>
+    <li>端末およびネットワーク情報 — 端末モデル、OS バージョン、言語・地域設定、IP アドレス</li>
+    <li>広告の表示・クリック履歴、IP アドレスに基づくおおよその位置（国レベル）</li>
+  </ul>
+  <p><b>パーソナライズ広告</b> — パーソナライズ広告を配信するか否かは、利用者の端末設定および同意の有無により決まります。iOS では、アプリのトラッキングを許可しない限り広告識別子にアクセスできず、その場合はパーソナライズされない広告が配信されます。</p>
+  <p><b>広告のオプトアウトおよび識別子のリセット</b></p>
+  <ul>
+    <li>iOS — <b>設定 › プライバシーとセキュリティ › トラッキング</b>でアプリのトラッキング要求を許可しない設定にできます。</li>
+    <li>Android — <b>設定 › プライバシー › 広告</b>で広告 ID をリセットまたは削除できます。</li>
+    <li>Google アカウントの広告設定は <a href="https://myadcenter.google.com" target="_blank" rel="noopener">myadcenter.google.com</a> で変更できます。</li>
+    <li>アプリ内でクレジットを購入すると、広告なしでご利用いただけます。</li>
+  </ul>
+  <p><b>お子様の利用</b> — 14歳未満のお子様は、法定代理人の同意がある場合にのみ本サービスを利用できます。当社は、お子様の利用者について関連法令および <a href="https://support.google.com/admob/answer/6223431" target="_blank" rel="noopener">Google の児童向け広告ポリシー</a> を遵守します。</p>
+  <p class="muted">Google が広告目的でデータを処理する方法については <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google のパートナーサイトにおけるデータ利用について</a> をご覧ください。</p>
+  <h2>5. 保有および破棄</h2>
   <p>目的達成後は遅滞なく破棄します。採点用の画像・テキストは処理後遅滞なく破棄し、運用ログは法令上の期間経過後に破棄します。アプリ内の<b>「アカウント削除」</b>を実行すると、学習活動・バックアップ・連携情報、アカウント、クレジットがすべて永久に削除されます。</p>
-  <h2>5. 利用者および法定代理人の権利</h2>
+  <h2>6. 利用者および法定代理人の権利</h2>
   <ul><li>閲覧・訂正・削除・処理停止の請求が可能</li><li>アプリ内<b>設定 › アカウント削除</b>から直接削除可能</li><li>同意撤回：利用停止またはアカウント削除</li><li>満14歳未満の児童の法定代理人が権利を行使可能</li></ul>
-  <h2>6. 安全性確保の措置</h2>
+  <h2>7. 安全性確保の措置</h2>
   <p>通信の暗号化（TLS）、アクセス権限の統制、サーバーのセキュリティルール、アプリ整合性検証（App Check）を適用します。</p>
-  <h2>7. お問い合わせ</h2>
+  <h2>8. お問い合わせ</h2>
   <p>個人情報保護責任者：주식회사 탑룰 · 連絡先：support@tapllul.com</p>
-  <h2>8. 方針の変更</h2>
+  <h2>9. 方針の変更</h2>
   <p>法令やサービスの変更に応じて改定される場合があり、改定時はアプリまたは本ページで告知します。</p>
 </div>
 
 <!-- zh -->
 <div data-lang="zh">
   <h1>隐私政策</h1>
-  <p class="muted">生效日期：2026-08-15 · 最近更新：2026-08-15</p>
+  <p class="muted">生效日期：2026-08-15 · 最近更新：2026-10-08</p>
   <p>주식회사 탑룰（以下简称“我们”）遵守相关法律法规，制定并公开本隐私政策。本政策适用于移动应用“MathMaster”（以下简称“本服务”）。</p>
   <h2>1. 我们收集的信息及方式</h2>
   <table>
@@ -183,22 +235,39 @@
     <tr><td>Alibaba Cloud (Singapore) Pte. Ltd.（Qwen）</td><td>新加坡</td><td>题目/解答文字（免费档解析时）</td><td>AI 批改/解析</td><td>至目的达成（处理后立即销毁）</td></tr>
   </table>
   <p>转移方式：使用时通过网络加密传输。您有权拒绝，但拒绝后将无法使用 AI 批改。</p>
-  <h2>4. 留存与销毁</h2>
+  <h2>4. 广告与广告标识符</h2>
+  <p>为提供广告支持的免费使用，本服务使用 Google LLC 提供的 <b>Google AdMob</b> 广告 SDK。在投放广告的过程中可能收集并使用以下信息：</p>
+  <ul>
+    <li><b>广告标识符</b> — iOS 的广告主标识符（IDFA）、Android 的广告 ID</li>
+    <li>设备与网络信息 — 设备型号、操作系统版本、语言与地区设置、IP 地址</li>
+    <li>广告展示与点击记录，以及基于 IP 地址的大致位置（国家级别）</li>
+  </ul>
+  <p><b>个性化广告</b> — 是否投放个性化广告取决于您的设备设置及您的同意。在 iOS 上，除非您允许应用跟踪，否则无法访问广告标识符，此时将投放非个性化广告。</p>
+  <p><b>拒绝广告与重置标识符</b></p>
+  <ul>
+    <li>iOS — 在<b>设置 › 隐私与安全性 › 跟踪</b>中关闭应用的跟踪请求。</li>
+    <li>Android — 在<b>设置 › 隐私 › 广告</b>中重置或删除广告 ID。</li>
+    <li>可在 <a href="https://myadcenter.google.com" target="_blank" rel="noopener">myadcenter.google.com</a> 更改 Google 账号的广告设置。</li>
+    <li>在应用内购买积分后即可免广告使用。</li>
+  </ul>
+  <p><b>儿童用户</b> — 未满 14 周岁的儿童须经法定代理人同意方可使用本服务。对于儿童用户，我们遵守相关法律法规及 <a href="https://support.google.com/admob/answer/6223431" target="_blank" rel="noopener">Google 面向儿童的广告政策</a>。</p>
+  <p class="muted">有关 Google 如何为广告目的处理数据，请参阅 <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google 关于合作伙伴网站数据使用的说明</a>。</p>
+  <h2>5. 留存与销毁</h2>
   <p>目的达成后立即销毁。用于批改的图片/文字在处理后立即销毁，运营日志按法定期限留存后销毁。使用应用内<b>“删除账户”</b>将永久删除学习活动、备份、关联信息、账户及积分。</p>
-  <h2>5. 您与法定代理人的权利</h2>
+  <h2>6. 您与法定代理人的权利</h2>
   <ul><li>可要求查阅、更正、删除、停止处理</li><li>通过应用内<b>设置 › 删除账户</b>直接删除</li><li>撤回同意：停止使用或删除账户</li><li>未满14周岁儿童的法定代理人可行使上述权利</li></ul>
-  <h2>6. 安全措施</h2>
+  <h2>7. 安全措施</h2>
   <p>传输加密（TLS）、访问权限控制、服务器安全规则、应用完整性验证（App Check）。</p>
-  <h2>7. 联系方式</h2>
+  <h2>8. 联系方式</h2>
   <p>个人信息保护负责人：주식회사 탑룰 · 联系方式：support@tapllul.com</p>
-  <h2>8. 政策变更</h2>
+  <h2>9. 政策变更</h2>
   <p>本政策可能随法律或服务变化而更新，更新时将在应用内或本页面公告。</p>
 </div>
 
 <!-- hi -->
 <div data-lang="hi">
   <h1>गोपनीयता नीति</h1>
-  <p class="muted">प्रभावी: 2026-08-15 · अंतिम अद्यतन: 2026-08-15</p>
+  <p class="muted">प्रभावी: 2026-08-15 · अंतिम अद्यतन: 2026-10-08</p>
   <p>주식회사 탑룰 (“हम”) लागू डेटा-सुरक्षा कानूनों का पालन करता है और यह गोपनीयता नीति प्रकाशित करता है। यह मोबाइल ऐप “MathMaster” (“सेवा”) पर लागू होती है।</p>
   <h2>1. हम कौन-सी जानकारी एकत्र करते हैं</h2>
   <table>
@@ -221,15 +290,32 @@
     <tr><td>Alibaba Cloud (Singapore) Pte. Ltd. (Qwen)</td><td>सिंगापुर</td><td>समस्या/हल टेक्स्ट (मुफ्त-स्तर विश्लेषण)</td><td>AI ग्रेडिंग/विश्लेषण</td><td>उद्देश्य पूरा होने तक (तुरंत नष्ट)</td></tr>
   </table>
   <p>स्थानांतरण उपयोग के समय एन्क्रिप्टेड कनेक्शन पर होता है। आप मना कर सकते हैं, पर तब AI ग्रेडिंग उपलब्ध नहीं होगी।</p>
-  <h2>4. प्रतिधारण व विलोपन</h2>
+  <h2>4. विज्ञापन और विज्ञापन पहचानकर्ता</h2>
+  <p>विज्ञापन-समर्थित मुफ़्त उपयोग प्रदान करने के लिए यह सेवा Google LLC का <b>Google AdMob</b> विज्ञापन SDK उपयोग करती है। विज्ञापन दिखाते समय निम्नलिखित जानकारी एकत्र व उपयोग की जा सकती है:</p>
+  <ul>
+    <li><b>विज्ञापन पहचानकर्ता</b> — iOS पर IDFA, Android पर विज्ञापन ID</li>
+    <li>डिवाइस व नेटवर्क जानकारी — डिवाइस मॉडल, OS संस्करण, भाषा व क्षेत्र सेटिंग, IP पता</li>
+    <li>विज्ञापन दिखने व क्लिक का रिकॉर्ड तथा IP पते से अनुमानित स्थान (देश स्तर)</li>
+  </ul>
+  <p><b>व्यक्तिगत विज्ञापन</b> — व्यक्तिगत (पर्सनलाइज़्ड) विज्ञापन दिखाए जाएँ या नहीं, यह आपकी डिवाइस सेटिंग और सहमति पर निर्भर करता है। iOS पर जब तक आप ऐप ट्रैकिंग की अनुमति नहीं देते, विज्ञापन पहचानकर्ता उपलब्ध नहीं होता और गैर-व्यक्तिगत विज्ञापन दिखाए जाते हैं।</p>
+  <p><b>ऑप्ट-आउट और पहचानकर्ता रीसेट</b></p>
+  <ul>
+    <li>iOS — <b>सेटिंग्स › गोपनीयता और सुरक्षा › ट्रैकिंग</b> में ऐप्स के ट्रैकिंग अनुरोध बंद करें।</li>
+    <li>Android — <b>सेटिंग्स › गोपनीयता › विज्ञापन</b> में विज्ञापन ID रीसेट या हटाएँ।</li>
+    <li>Google खाते की विज्ञापन सेटिंग <a href="https://myadcenter.google.com" target="_blank" rel="noopener">myadcenter.google.com</a> पर बदली जा सकती है।</li>
+    <li>ऐप में क्रेडिट खरीदने पर विज्ञापन नहीं दिखाए जाते।</li>
+  </ul>
+  <p><b>बाल उपयोगकर्ता</b> — 14 वर्ष से कम आयु के बच्चे केवल अभिभावक की सहमति से सेवा का उपयोग कर सकते हैं। बाल उपयोगकर्ताओं के संबंध में हम लागू कानून तथा <a href="https://support.google.com/admob/answer/6223431" target="_blank" rel="noopener">बच्चों के लिए विज्ञापन संबंधी Google की नीतियों</a> का पालन करते हैं।</p>
+  <p class="muted">विज्ञापन हेतु Google द्वारा डेटा संसाधित करने की जानकारी के लिए <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google का पार्टनर साइट डेटा उपयोग पृष्ठ</a> देखें।</p>
+  <h2>5. प्रतिधारण व विलोपन</h2>
   <p>उद्देश्य पूरा होते ही हम डेटा तुरंत हटा देते हैं। ग्रेडिंग की छवियाँ/टेक्स्ट प्रोसेसिंग के बाद तुरंत नष्ट होते हैं; संचालन लॉग कानून द्वारा निर्धारित अवधि तक रखे जाते हैं। ऐप में <b>खाता हटाएं</b> से आपकी गतिविधि, बैकअप, लिंकिंग डेटा, खाता व क्रेडिट स्थायी रूप से हट जाते हैं।</p>
-  <h2>5. आपके अधिकार</h2>
+  <h2>6. आपके अधिकार</h2>
   <ul><li>पहुँच, सुधार, विलोपन या प्रोसेसिंग रोकने का अनुरोध</li><li><b>सेटिंग्स › खाता हटाएं</b> से सीधे हटाएं</li><li>सहमति वापस लेने हेतु उपयोग बंद करें या खाता हटाएं</li><li>14 से कम आयु के बच्चों के अभिभावक ये अधिकार प्रयोग कर सकते हैं</li></ul>
-  <h2>6. सुरक्षा</h2>
+  <h2>7. सुरक्षा</h2>
   <p>ट्रांज़िट में TLS एन्क्रिप्शन, एक्सेस नियंत्रण, सर्वर-साइड सुरक्षा नियम, व ऐप-अखंडता सत्यापन (App Check)।</p>
-  <h2>7. संपर्क</h2>
+  <h2>8. संपर्क</h2>
   <p>डेटा संरक्षण अधिकारी: 주식회사 탑룰 · संपर्क: support@tapllul.com</p>
-  <h2>8. परिवर्तन</h2>
+  <h2>9. परिवर्तन</h2>
   <p>कानून या सेवा बदलने पर हम इस नीति को अद्यतन कर सकते हैं; अद्यतन ऐप में या यहाँ सूचित किए जाते हैं।</p>
 </div>
 </div>
