@@ -45,14 +45,24 @@
 <!-- ko -->
 <div data-lang="ko" class="show">
   <h1>Tapllul 개인정보처리방침</h1>
-  <p class="muted">시행일자: 2026-10-08</p>
+  <p class="muted">시행일자: 2026-10-20 (이전 방침: 2026-10-08)</p>
   <p>주식회사 탑룰(이하 “회사”)은 「개인정보 보호법」 등 관련 법령을 준수하며, 다음과 같이 개인정보처리방침을 수립·공개합니다. 본 방침은 iPhone·Apple Watch용 애플리케이션 “Tapllul”(이하 “앱”)에 적용됩니다.</p>
 
   <h2>1. 요약</h2>
-  <p>회사는 앱을 통해 이용자의 개인정보를 직접 수집하지 않습니다. 계정이 필요 없고 회사 서버에 연결하지 않습니다. 다만 무료 버전에 표시되는 Google AdMob 배너 광고를 위해 Google이 아래 정보를 수집할 수 있습니다. <strong>Tapllul Pro</strong>를 구매하면 광고가 제거됩니다.</p>
+  <p>회사는 앱을 통해 이용자의 개인정보를 수집하지 않으며 계정도 필요 없습니다. 이용자가 끄지 않는 한, 앱은 누구의 것인지 알 수 없는 <strong>익명 이용 통계</strong>(2-1항)만 회사 서버로 보냅니다. 무료 버전에 표시되는 Google AdMob 광고를 위해 Google이 아래 정보를 수집할 수 있으며, <strong>Tapllul Pro</strong>를 구독하면 광고가 제거됩니다.</p>
 
   <h2>2. 기기에만 저장되는 정보</h2>
   <p>설정(템포·테마·타이머 등), 사운드 선택, 세션 통계(횟수·시간·연속 일수)는 이용자의 기기(위젯·Apple Watch와 공유하는 앱 그룹 저장소 포함)에만 저장되며 회사로 전송되지 않습니다. 앱을 삭제하면 함께 삭제됩니다.</p>
+
+  <h2>2-1. 익명 이용 통계 (버전 1.1부터)</h2>
+  <p>기본 템포 등 앱을 개선하기 위해, 세션이 끝날 때 다음 요약 정보를 회사 서버(Cloudflare)로 보냅니다. 앱의 <strong>설정 → 익명 통계 보내기</strong>에서 언제든 끌 수 있습니다.</p>
+  <table>
+    <tr><th>항목</th><th>예시</th></tr>
+    <tr><td>탭 리듬 요약</td><td>30초 단위 평균 템포(5 단위 반올림), 리듬 고르기, 가이드 대비 빠르기, 마지막 탭 시점·세션 길이·탭 수(구간)</td></tr>
+    <tr><td>사용한 설정</td><td>시작·최저 템포, 감속 정도, 슬립 타이머, 호흡 모드, 구독 여부, 세션 종료 방식</td></tr>
+    <tr><td>환경</td><td>앱 버전, iOS 주 버전, 언어 코드, 세션이 끝난 시(時), 테스트 빌드 여부</td></tr>
+  </table>
+  <p>이름·이메일·계정, 기기 식별자(IDFA·IDFV 등), 설치마다 고유한 ID, 위치, 정확한 시각은 보내지 않으며, 서버는 IP 주소를 저장하지 않습니다. 따라서 저장된 기록을 특정 개인이나 기기와 연결할 수 없고, 같은 이용자의 기록끼리 연결할 수도 없습니다. 통계는 받은 날짜(일 단위)와 함께 보관되며 개선 분석에만 사용합니다.</p>
 
   <h2>3. 광고(Google AdMob)를 통해 수집될 수 있는 정보</h2>
   <table>
@@ -65,7 +75,7 @@
   <ul>
     <li>앱은 <strong>비맞춤형 광고만</strong> 요청하며, 앱 추적 투명성(ATT) 허용을 요청하지 않고 광고 식별자(IDFA)에 접근하지 않습니다.</li>
     <li>광고는 전체 이용가(G) 수준의 콘텐츠로 제한됩니다.</li>
-    <li>광고는 시작 화면에만 표시되며, 세션 진행 중에는 표시되지 않습니다.</li>
+    <li>광고는 시작 화면(배너), 세션 종료 후, 알람 변경·타이머 시작 시(전면 광고)에 표시되며, 세션 진행 중에는 표시되지 않습니다.</li>
     <li>유럽경제지역(EEA)·영국 등 동의가 필요한 지역에서는 광고 요청 전에 동의를 받습니다.</li>
   </ul>
 
@@ -73,6 +83,7 @@
   <table>
     <tr><th>이전받는 자</th><th>이전 국가</th><th>이전 항목</th><th>목적</th><th>이전 방법</th></tr>
     <tr><td>Google LLC (AdMob)</td><td>미국</td><td>제3항의 광고 관련 정보</td><td>광고 게재·측정</td><td>앱 사용 시 네트워크를 통해 전송</td></tr>
+    <tr><td>Cloudflare, Inc.</td><td>미국 등 Cloudflare 데이터센터 소재국</td><td>제2-1항의 익명 이용 통계</td><td>통계 서버 운영(보관)</td><td>세션 종료 시 네트워크를 통해 전송</td></tr>
   </table>
   <p>Google의 정보 처리는 <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>을 따르며, <a href="https://policies.google.com/technologies/partner-sites?hl=ko">Google 서비스를 사용하는 사이트·앱의 정보 사용 방식</a>에서 자세히 확인할 수 있습니다.</p>
 
@@ -80,11 +91,12 @@
   <p>Tapllul Pro는 Apple App Store의 인앱 구매로 판매되며 결제는 Apple이 처리합니다. 회사는 결제 수단 등 결제 정보를 받지 않습니다. 환불은 <a href="https://reportaproblem.apple.com">Apple</a>을 통해 요청할 수 있습니다.</p>
 
   <h2>6. 보유 및 파기</h2>
-  <p>회사는 개인정보를 보유하지 않습니다. 기기에 저장된 정보는 앱 삭제 시 파기됩니다. Google이 수집한 정보의 보유 기간은 Google의 정책을 따릅니다.</p>
+  <p>회사는 개인정보를 보유하지 않습니다. 익명 이용 통계는 개인을 식별할 수 없는 정보로, 서비스 개선에 필요한 기간 동안 보관합니다. 기기에 저장된 정보는 앱 삭제 시 파기됩니다. Google이 수집한 정보의 보유 기간은 Google의 정책을 따릅니다.</p>
 
   <h2>7. 이용자의 권리와 선택</h2>
   <ul>
-    <li>Tapllul Pro를 구매하면 광고와 그에 따른 정보 수집이 중단됩니다.</li>
+    <li>Tapllul Pro를 구독하면 광고와 그에 따른 정보 수집이 중단됩니다.</li>
+    <li>앱의 <strong>설정 → 익명 통계 보내기</strong>를 끄면 익명 이용 통계 전송이 중단됩니다.</li>
     <li>iPhone <strong>설정 → 개인정보 보호 및 보안 → 추적</strong>에서 앱의 추적 요청을 허용하지 않을 수 있습니다(앱은 추적을 요청하지 않습니다).</li>
     <li>개인정보 관련 문의·열람·삭제 요청은 아래 연락처로 보내주시면 지체 없이 처리합니다.</li>
   </ul>
@@ -102,14 +114,24 @@
 <!-- en -->
 <div data-lang="en">
   <h1>Tapllul Privacy Policy</h1>
-  <p class="muted">Effective: 2026-10-08</p>
+  <p class="muted">Effective: 2026-10-20 (previous version: 2026-10-08)</p>
   <p>Tapllul Inc. (주식회사 탑룰, “we”) publishes this Privacy Policy in accordance with applicable data-protection laws. It applies to the iPhone and Apple Watch app “Tapllul” (the “App”).</p>
 
   <h2>1. Summary</h2>
-  <p>We do not collect personal data through the App. It needs no account and does not connect to our servers. The free version shows a Google AdMob banner ad, and Google may collect the information described below to deliver it. Buying <strong>Tapllul Pro</strong> removes ads.</p>
+  <p>We do not collect personal data through the App, and it needs no account. Unless you turn it off, the App sends our server only <strong>anonymous usage statistics</strong> that cannot be linked to anyone (section 2-1). The free version shows Google AdMob ads, and Google may collect the information described below to deliver them. Subscribing to <strong>Tapllul Pro</strong> removes ads.</p>
 
   <h2>2. Data stored only on your device</h2>
   <p>Your settings (tempo, theme, timers), sound choice and session statistics (count, minutes, streak) are stored only on your device, including the app-group storage shared with the widget and Apple Watch app. They are never sent to us and are removed when you delete the App.</p>
+
+  <h2>2-1. Anonymous usage statistics (from version 1.1)</h2>
+  <p>To improve the App (for example its default tempo), a summary is sent to our server (hosted on Cloudflare) when a session ends. You can turn this off at any time in the App's <strong>Settings → Share anonymous stats</strong>.</p>
+  <table>
+    <tr><th>Item</th><th>Examples</th></tr>
+    <tr><td>Tapping-rhythm summary</td><td>Average tempo per 30 s (rounded to 5 BPM), evenness, pace relative to the guide, time of last tap, session length and tap count (in ranges)</td></tr>
+    <tr><td>Settings used</td><td>Start and lowest tempo, slow-down feel, sleep timer, breathing mode, subscription status, how the session ended</td></tr>
+    <tr><td>Environment</td><td>App version, iOS major version, language code, hour of day the session ended, whether it is a test build</td></tr>
+  </table>
+  <p>No name, email, account, device identifier (IDFA, IDFV, etc.), per-install ID, location or exact time is sent, and the server does not store IP addresses. Stored records therefore cannot be linked to a person or device, or to each other. Statistics are kept with the day they were received and used only to improve the App.</p>
 
   <h2>3. Data that may be collected for advertising (Google AdMob)</h2>
   <table>
@@ -122,7 +144,7 @@
   <ul>
     <li>The App requests <strong>non-personalized ads only</strong>, does not ask for App Tracking Transparency permission, and does not access the advertising identifier (IDFA).</li>
     <li>Ads are limited to content suitable for general audiences (G).</li>
-    <li>Ads appear only on the start screen, never during a session.</li>
+    <li>Ads appear on the start screen (banner), after a session, and when you change the alarm or start a timer (full-screen) — never during a session.</li>
     <li>Where consent is required (such as the EEA and UK), you are asked before any ad is requested.</li>
   </ul>
 
@@ -130,6 +152,7 @@
   <table>
     <tr><th>Recipient</th><th>Country</th><th>Data</th><th>Purpose</th><th>Method</th></tr>
     <tr><td>Google LLC (AdMob)</td><td>United States</td><td>Advertising data in section 3</td><td>Ad delivery and measurement</td><td>Sent over the network while the App is in use</td></tr>
+    <tr><td>Cloudflare, Inc.</td><td>United States and other countries with Cloudflare data centers</td><td>Anonymous usage statistics in section 2-1</td><td>Hosting the statistics server</td><td>Sent over the network when a session ends</td></tr>
   </table>
   <p>Google's processing is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>; see also <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from sites or apps that use its services</a>.</p>
 
@@ -137,11 +160,12 @@
   <p>Tapllul Pro is sold as an in-app purchase through Apple's App Store, and payment is handled entirely by Apple. We never receive your payment details. Refunds can be requested from <a href="https://reportaproblem.apple.com">Apple</a>.</p>
 
   <h2>6. Retention</h2>
-  <p>We do not retain personal data. Data on your device is deleted with the App. Retention of data collected by Google follows Google's policies.</p>
+  <p>We do not retain personal data. Anonymous usage statistics, which cannot identify anyone, are kept as long as they are useful for improving the App. Data on your device is deleted with the App. Retention of data collected by Google follows Google's policies.</p>
 
   <h2>7. Your rights and choices</h2>
   <ul>
-    <li>Buying Tapllul Pro stops ads and the related data collection.</li>
+    <li>Subscribing to Tapllul Pro stops ads and the related data collection.</li>
+    <li>Turning off <strong>Settings → Share anonymous stats</strong> in the App stops anonymous usage statistics.</li>
     <li>You can turn off tracking requests in <strong>Settings → Privacy &amp; Security → Tracking</strong> (the App does not request tracking).</li>
     <li>Send privacy questions or access/deletion requests to the contact below and we will respond promptly.</li>
   </ul>
